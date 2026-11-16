@@ -4,6 +4,25 @@ Eine modulare End-to-End-Anwendung für **Speech-to-Text (STT)** und **Natural L
 
 ---
 
+## Vorschau der Anwendung
+
+### 1. KPI-Übersicht & Speech-to-Text (OpenAI Whisper)
+![KPI-Übersicht und Whisper-Transkription](docs/01_whisper_overview.png)
+
+<details>
+<summary><b>Weitere Ansichten anzeigen: Named Entity Recognition (spaCy) & Intent-Analyse (XLM-RoBERTa)</b></summary>
+<br>
+
+**2. Named Entity Recognition (`spaCy`)**
+![spaCy Named Entity Recognition](docs/02_spacy_ner.png)
+
+**3. Zero-Shot Intent Recognition (`joeddav/xlm-roberta-large-xnli`)**
+![Zero-Shot Intent Recognition](docs/03_intent_recognition.png)
+
+</details>
+
+---
+
 ## Architektur & Datenfluss
 
 Die Pipeline verarbeitet gesprochene Sprache (oder direkte Texteingaben) lokal über drei aufeinander abgestimmte KI-Stufen:
@@ -68,6 +87,11 @@ multilingual-voice-nlu-pipeline/
 │   ├── 01_tts_benchmark.ipynb          # Vergleich der TTS-Synthese-Engines
 │   ├── 02_stt_benchmark.ipynb          # Praxisvergleich: Coqui, Silero, Vosk & Whisper
 │   └── 03_nlu_evaluation.ipynb         # Analyse von spaCy NER, XLM-RoBERTa & VADER
+│
+├── docs/                               # Screenshots für die Projektdokumentation
+│   ├── 01_whisper_overview.png
+│   ├── 02_spacy_ner.png
+│   └── 03_intent_recognition.png
 │
 └── data/
     ├── reference_texts.json            # Zentrale DE/EN-Referenztexte & Standard-Intents
