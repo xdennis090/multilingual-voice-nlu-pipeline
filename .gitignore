@@ -1,0 +1,28 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment & IDE
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporäre Audio-Dateien & lokale Caches
+temp_*
+*.tmp
+nltk_data/
+
+# Dynamisch erzeugte Test-Audios ignorieren, feste Referenz-Samples behalten
+data/sample_audio/*
+!data/sample_audio/.gitkeep
+!data/sample_audio/sample_de.wav
+!data/sample_audio/sample_en.wav

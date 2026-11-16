@@ -1,0 +1,23 @@
+{
+  "texts": {
+    "de": {
+      "title": "Forschungsbericht (Deutsch – Whisper-Transkript)",
+      "text": "Am Dienstag dem 12. März 2024, traf Dr. Anna Schneider um exakt 8 Uhr und 45 Minuten im Konferenzraum 3B des Forschungszentrums ein. Guten Morgen, meine Damen und Herren, begann sie freundlich. Ich freue mich, ihnen heute die Neuesten Ergebnisse unserer KI-Studie präsentieren zu dürfen. Die Analyse umfasste 1278 Datensätze, verteilt auf 5 Kategorien und zeigt da eine durchschnittliche Genauigkeit von 92,4%. Besonders interessant war der Anstieg der Nutzerzahl um 15% im Vergleich zum Vorjahr, trotz eines Büges von nur 950. Doch dann kam eine überraschende Wendung, der server viel plötzlich aus. Was ist passiert, rief jemand panisch. Anna blieb ruhig. Keine Sorge, wir haben ein Back-up-System."
+    },
+    "en": {
+      "title": "Research Presentation (English – Whisper Transcript)",
+      "text": "On Thursday, March 14, 2024, Dr. Emily Carter arrived at conference room B3 precisely at 8.45am. Good morning, everyone, she began warmly. Today, I'm excited to share the latest results from our AI-driven analysis. The data set included 1,278 entries, categorized into five distinct groups, and showed an average accuracy of 92.4%. Interestingly, user engagement increased by 15% compared to the previous year, even though the budget was limited to just $950. But then something unexpected happened, the system crashed. What just happened, someone asked in a panic. Emily remained calm. Don't worry, we have a backup. Later, in an interview, she remarked, sometimes, it's the unexpected that leads to the most valuable insights."
+    }
+  },
+  "default_intent_labels": [
+    "greeting",
+    "presentation",
+    "report",
+    "system failure",
+    "question",
+    "reassurance",
+    "reaction",
+    "context",
+    "reflection"
+  ]
+}
