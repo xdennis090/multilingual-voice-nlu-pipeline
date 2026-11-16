@@ -90,8 +90,17 @@ async def generate_all() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     for lang_key, (voice_name, target_filename) in VOICE_CONFIG.items():
-        text = texts.get(lang_key)
-        if not text:
+        raw_entry = texts.get(lang_key)
+        if isinstance(raw_entry, dict):
+            text = (
+                raw_entry.get("text")
+                or raw_entry.get("full_text")
+                or next((v for v in raw_entry.values() if isinstance(v, str)), "")
+            )
+        else:
+            text = raw_entry or ""
+
+        if not text.strip():
             print(f"Überspringe '{lang_key}': Kein Text in {REFERENCE_TEXTS_PATH.name} gefunden.")
             continue
 

@@ -7,3 +7,5 @@ protobuf>=4.25.0
 spacy>=3.8.0
 pandas>=2.1.0
 matplotlib>=3.8.0
+edge-tts>=6.1.9
+nltk>=3.8.0

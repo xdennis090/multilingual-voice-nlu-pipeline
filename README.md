@@ -1,6 +1,6 @@
 # Multilingual Voice-NLU Pipeline
 
-Eine modulare End-to-End-Anwendung für **Speech-to-Text (STT)** und **Natural Language Understanding (NLU)** in **Deutsch und Englisch**. Das Projekt überführt systematische Modell-Benchmarks aus den Bereichen Text-to-Speech (TTS), Spracherkennung (STT) und Sprachverständnis (NLP/NLU) in eine produktionsnahe Python-Architektur mit interaktiver **Streamlit-Oberfläche**.
+Eine modulare End-to-End-Anwendung für **Speech-to-Text (STT)** und **Natural Language Understanding (NLU)** in **Deutsch und Englisch**. Das Projekt überführt Modell-Benchmarks aus den Bereichen Text-to-Speech (TTS), Spracherkennung (STT) und Sprachverständnis (NLP/NLU) in eine produktionsnahe Python-Architektur mit interaktiver **Streamlit-Oberfläche**.
 
 ---
 
@@ -86,7 +86,7 @@ OpenAI Whisper sowie die Audio-Konvertierung benötigen `ffmpeg`:
 
 ### 2. Repository klonen & virtuelle Umgebung einrichten
 ```bash
-git clone [https://github.com/](https://github.com/)<dein-username>/multilingual-voice-nlu-pipeline.git
+git clone https://github.com/xdennis090/multilingual-voice-nlu-pipeline.git
 cd multilingual-voice-nlu-pipeline
 
 python -m venv .venv
